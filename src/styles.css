@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+.App a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+}
+
+.component {
+  display: flex;
+  width: 18vw;
+  height: 50vh;
+  align-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid red;
+}
+td {
+  font-size: 20px;
+}
+tr {
+  border-bottom: 1px solid black;
+}
